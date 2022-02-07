@@ -17,7 +17,6 @@ export default function () {
                       Display
                   </button>
           </li>
-          
       </ul>
   </div>;
 }

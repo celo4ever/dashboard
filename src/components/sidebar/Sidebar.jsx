@@ -7,7 +7,7 @@ export default function Sidebar() {
   return <div className='sidebar'>
       <div className="sidebarWrapper">
           <div className="sidebarMenu">
-              <h3 className="sidebarTitle">DashBoard</h3>
+              <h3 className="sidebarTitle">Templates</h3>
               <ul className="sidebarList">
                   <Link to='/' className='link'>
                     <li className="sidebarListItem active">
@@ -15,19 +15,6 @@ export default function Sidebar() {
                         Home
                     </li>
                   </Link>
-                  <li className="sidebarListItem">
-                      <Timeline className='sidebarIcon'/>
-                      Analitics
-                  </li>
-                  <li className="sidebarListItem">
-                      <TrendingUp className='sidebarIcon'/>
-                      Sales
-                  </li>
-              </ul>
-          </div>
-          <div className="sidebarMenu">
-              <h3 className="sidebarTitle">Quick Menu</h3>
-              <ul className="sidebarList">
                   <Link to='/users' className='link'>
                     <li className="sidebarListItem">
                         <PermIdentity className='sidebarIcon'/>
@@ -40,13 +27,18 @@ export default function Sidebar() {
                         Products
                     </li>
                   </Link>
+              </ul>
+          </div>
+          <div className="sidebarMenu">
+              <h3 className="sidebarTitle">Components</h3>
+              <ul className="sidebarList">
                   <li className="sidebarListItem">
                       <AttachMoney className='sidebarIcon'/>
-                      Transactions
+                      TopBar
                   </li>
                   <li className="sidebarListItem">
                       <BarChart className='sidebarIcon'/>
-                      Reports
+                      SideBar
                   </li>
               </ul>
           </div>
